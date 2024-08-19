@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1 class="text-center">Vue.js To-Do App</h1>
+          <h1 class="text-center">오늘 할 일 리스트</h1>
           <AddTodo @add-todo="addTodo" />
           <ToDoList :todos="todos" @remove-todo="removeTodo" @save-todos="saveTodos" />
         </v-col>
